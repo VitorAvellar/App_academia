@@ -12,13 +12,15 @@ interface Props {
   onSelect: (exercise: Exercise) => void
   /** Rótulo opcional à direita de cada item (ex.: "Adicionar"). */
   actionLabel?: string
+  /** Se informado, exibe botão para criar um exercício próprio já com o texto buscado. */
+  onCreateRequest?: (prefill: { name: string; muscleGroup?: string }) => void
 }
 
 /**
  * Lista de exercícios com busca + filtros (grupo muscular e equipamento).
  * Reutilizada no Catálogo e no seletor "Adicionar exercício".
  */
-export function ExerciseBrowser({ onSelect, actionLabel }: Props) {
+export function ExerciseBrowser({ onSelect, actionLabel, onCreateRequest }: Props) {
   // useLiveQuery: re-executa a consulta sempre que a tabela muda e atualiza a tela sozinha.
   const exercises = useLiveQuery(() => exerciseRepo.list(), [])
   const [query, setQuery] = useState('')
@@ -49,6 +51,8 @@ export function ExerciseBrowser({ onSelect, actionLabel }: Props) {
   }
 
   if (!exercises) return <p className="p-4 text-slate-400">Carregando…</p>
+
+  const trimmedQuery = query.trim()
 
   return (
     <div className="flex flex-col gap-3">
@@ -88,7 +92,18 @@ export function ExerciseBrowser({ onSelect, actionLabel }: Props) {
         ))}
       </select>
 
-      <p className="text-xs text-slate-500">{filtered.length} exercícios</p>
+      <div className="flex items-center justify-between">
+        <p className="text-xs text-slate-500">{filtered.length} exercícios</p>
+        {onCreateRequest && trimmedQuery.length > 0 && (
+          <button
+            type="button"
+            onClick={() => onCreateRequest({ name: trimmedQuery, muscleGroup: group || undefined })}
+            className="text-xs font-medium text-green-400 hover:underline"
+          >
+            + Criar "{trimmedQuery}"
+          </button>
+        )}
+      </div>
 
       <ul className="flex flex-col gap-2">
         {filtered.slice(0, limit).map((ex) => (
@@ -120,8 +135,20 @@ export function ExerciseBrowser({ onSelect, actionLabel }: Props) {
           Mostrar mais ({filtered.length - limit} restantes)
         </button>
       )}
-      {filtered.length === 0 && <p className="py-6 text-center text-slate-500">Nenhum exercício encontrado.</p>}
+      {filtered.length === 0 && (
+        <div className="flex flex-col items-center gap-3 py-6 text-center">
+          <p className="text-slate-500">Nenhum exercício encontrado na lista.</p>
+          {onCreateRequest && (
+            <button
+              type="button"
+              onClick={() => onCreateRequest({ name: trimmedQuery, muscleGroup: group || undefined })}
+              className="rounded-xl bg-green-600 px-4 py-3 text-sm font-semibold text-white active:bg-green-700"
+            >
+              {trimmedQuery ? `+ Criar "${trimmedQuery}" e usar` : '+ Criar exercício próprio'}
+            </button>
+          )}
+        </div>
+      )}
     </div>
   )
 }
-

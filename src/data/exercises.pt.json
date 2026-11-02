@@ -87,7 +87,9 @@
       "Abdômen"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "O procedimento é muito parecido com o do abdominal tradicional, apenas com o peso adicional da máquina. Sente-se na máquina e apoie bem os dois pés no chão. Segure no peso, nas alças ou nos cabos e faça um movimento de enrolamento para a frente (idealmente a coluna deve perder o contato com o apoio vértebra por vértebra). Volte lentamente à posição inicial.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 3"
@@ -364,7 +366,9 @@
     "musclesSecondary": [
       "Glúteos"
     ],
-    "equipment": [],
+    "equipment": [
+      "Anilha"
+    ],
     "description": "Fique em pé com os pés um pouco mais afastados que a largura dos ombros, mantendo o tronco o mais alto possível.\n\nSegure uma anilha e estenda os braços à frente do corpo, na altura do peito. Mantenha o core firme e a coluna com a curvatura natural.\n\nEm seguida, leve o quadril para trás e flexione os joelhos até descer o máximo que conseguir no agachamento. Pause por alguns instantes e volte à posição inicial.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -590,7 +594,9 @@
       "Panturrilhas",
       "Glúteos"
     ],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "O agachamento hack trabalha o corpo inferior e pode ser feito na máquina de hack squat ou com barra. Na versão com máquina, posicione-se na plataforma com os ombros sob os apoios e os pés um pouco à frente. Empurre com os calcanhares para tirar o peso, depois flexione os joelhos e desça a plataforma de forma controlada até as coxas ficarem paralelas ao chão. Empurre de volta para a posição inicial. Na versão com barra, segure a barra atrás das pernas com os braços estendidos e execute um movimento semelhante ao agachamento.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -656,7 +662,9 @@
     "musclesSecondary": [
       "Posteriores de coxa"
     ],
-    "equipment": [],
+    "equipment": [
+      "Halteres"
+    ],
     "description": "O exercício consiste em segurar um halter com uma das mãos e executar um agachamento dando um passo para o lado. Trabalha pernas, glúteos e core.",
     "imagePath": "exercise-images/412ba9ab-ae29-4411-9bbc-74af1263494c.jpg",
     "licenseAuthor": "jptjptjptjpt",
@@ -1387,7 +1395,9 @@
       "Bíceps",
       "Trapézio"
     ],
-    "equipment": [],
+    "equipment": [
+      "Barra fixa"
+    ],
     "description": "A barra fixa arqueiro é um exercício avançado com o peso do corpo que fortalece as costas e os bíceps, servindo de progressão para a barra fixa com um braço. O nome vem da posição de puxar o arco que o corpo assume no topo.\n\nPara executar:\n\n• Pegada: segure a barra com pegada pronada mais aberta que a largura dos ombros.\n\n• Posição inicial: pendure-se com os braços totalmente estendidos, contraindo o core e mantendo as escápulas deprimidas.\n\n• A puxada: puxe o corpo para cima em direção a uma das mãos, como em uma barra fixa normal. Ao mesmo tempo, estenda o outro braço para o lado, mantendo-o o mais reto possível. Seu queixo deve ir em direção à mão que puxa.\n\n• Segure e desça: faça uma breve isometria no topo, com um braço flexionado puxando e o outro estendido. Desça lentamente de volta à posição inicial com controle.\n\n• Alterne: repita o movimento puxando em direção à mão oposta.\n\nO ponto-chave é manter o braço de apoio o mais estendido possível para maximizar a carga sobre o braço que trabalha. Isso torna o exercício desafiador, mas eficaz para a força de puxada unilateral.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -1404,7 +1414,9 @@
       "Braquial",
       "Trapézio"
     ],
-    "equipment": [],
+    "equipment": [
+      "Barra fixa"
+    ],
     "description": "Barra fixa com assistência de máquina (contrapesos).",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -1627,7 +1639,9 @@
       "Quadríceps"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "A extensão de pernas é um exercício de treinamento resistido que tem como alvo o músculo quadríceps. O exercício é feito em uma máquina chamada cadeira extensora. Existem vários fabricantes dessas máquinas e cada uma é um pouco diferente. A maioria das academias e salas de musculação tem a máquina em suas instalações. A extensão de pernas é um exercício isolado, que atinge um grupo muscular específico, o quadríceps. Ela não deve ser considerada um treino completo de pernas, como o agachamento ou o levantamento terra. O exercício consiste em flexionar a perna no joelho, estendê-la e depois baixá-la de volta à posição original.",
     "imagePath": "exercise-images/62170477-90ec-463c-907e-9e523abc0a15.jpg",
     "licenseAuthor": "jptjptjptjpt",
@@ -1884,7 +1898,9 @@
       "Glúteos"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Empurre com o calcanhar, não com os dedos dos pés, para atingir o glúteo.\n\nNão hiperextenda a lombar no topo do movimento.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -2441,7 +2457,9 @@
     "musclesSecondary": [
       "Panturrilhas"
     ],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Sente-se em um banco para elevação de panturrilha e verifique se os pés estão apoiados só pela metade e se você consegue alongar completamente as panturrilhas para baixo. Suba os calcanhares o máximo que conseguir. No ponto mais alto, faça uma pausa curta de 1 ou 2 segundos e desça.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 3"
@@ -2455,7 +2473,9 @@
       "Sóleo"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "De preferência com o acessório de trapézio, eleve o peso usando as panturrilhas, ficando na ponta dos pés.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -2485,7 +2505,9 @@
     "musclesSecondary": [
       "Sóleo"
     ],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Posicione-se na máquina com as costas bem apoiadas no encosto e os pés na plataforma de panturrilha. Verifique se os pés estão com metade para fora da plataforma, de modo que você consiga alongar completamente a panturrilha para baixo.\n\nCom os joelhos estendidos, eleve o peso o máximo que puder. Desça com movimento fluido até alongar completamente as panturrilhas. Repita.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 3"
@@ -2651,7 +2673,9 @@
       "Trapézio"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Anilha"
+    ],
     "description": "A elevação frontal com anilha é uma variação da elevação frontal com halteres em que o praticante segura uma anilha entre as duas mãos, em vez de usar halteres, barra ou outro peso. Ela traz variedade a um treino de ombros focado em hipertrofia, ou pode fazer parte de um circuito de membros superiores ou de corpo inteiro.\n\n• Em pé e ereto, segure uma anilha com as duas mãos nas posições de 3 e 9 horas. As palmas devem estar voltadas uma para a outra, os braços estendidos e travados com uma leve flexão nos cotovelos, e a anilha deve ficar o mais baixo possível, perto da cintura, à sua frente. Dica: os braços permanecem nessa posição durante todo o exercício. Esta é a posição inicial.\n\n• Suba a anilha lentamente enquanto expira, até ficar um pouco acima da altura dos ombros. Segure a contração por um segundo. Ao inspirar, desça a anilha lentamente de volta à posição inicial.\n\n• Repita o número recomendado de repetições.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 3"
@@ -3011,7 +3035,9 @@
       "Serrátil anterior"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Na máquina de extensão, com as costas apoiadas e carga, flexione o tronco para a frente e estenda-o de volta à posição neutra, controlando o movimento em todo o percurso.",
     "imagePath": "exercise-images/deebd257-f84d-4879-9dc4-353ee0ea534f.jpg",
     "licenseAuthor": "jptjptjptjpt",
@@ -3025,7 +3051,9 @@
       "Glúteos"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Um exercício de extensão de quadril no aparelho GHD é um dos melhores exercícios para glúteos. Apesar de o foco principal serem os glúteos, ele também é excelente para a região lombar, as panturrilhas e os isquiotibiais.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -3578,7 +3606,9 @@
       "Glúteos"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "A flexora, também conhecida como flexão de pernas, é um exercício de isolamento que tem como alvo os músculos isquiotibiais. O exercício consiste em flexionar a perna contra a resistência, levando-a em direção aos glúteos. Outros exercícios que fortalecem os isquiotibiais são a flexão glúteo-isquiotibial e o levantamento terra.",
     "imagePath": "exercise-images/48836f44-efcd-4471-a456-5f024936025a.png",
     "licenseAuthor": "jptjptjptjpt",
@@ -3874,7 +3904,9 @@
       "Quadríceps"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "O leg press é um exercício de treinamento com pesos no qual a pessoa empurra um peso ou resistência para longe de si usando as pernas.",
     "imagePath": "exercise-images/66a42396-c207-44da-bc75-758a89d32404.png",
     "licenseAuthor": "jptjptjptjpt",
@@ -3890,7 +3922,9 @@
     "musclesSecondary": [
       "Glúteos"
     ],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Sente-se na máquina e apoie os pés na plataforma, um pouco mais afastados que a largura dos ombros. Os pés ficam virados para fora por alguns graus.\n\nDesça o peso até que os joelhos formem um ângulo reto. Empurre a plataforma imediatamente para cima, sem nenhuma pausa. Na posição baixa, os joelhos apontam um pouco para fora e o movimento deve ser sempre fluido.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 3"
@@ -3905,7 +3939,9 @@
     "musclesSecondary": [
       "Glúteos"
     ],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "O exercício é muito parecido com o leg press aberto.\n\nSente-se na máquina e apoie os pés na plataforma com uma distância entre eles que permita apenas encaixar outro pé no meio. Os pés ficam paralelos e apontados para cima.\n\nDesça o peso até que os joelhos formem um ângulo reto. Empurre a plataforma imediatamente para cima, sem nenhuma pausa. Na posição baixa, os joelhos apontam um pouco para fora e o movimento deve ser sempre fluido.",
     "imagePath": "exercise-images/5f0b757c-0d6a-430b-9d5e-3bfba202878e.jpg",
     "licenseAuthor": "jptjptjptjpt",
@@ -4226,7 +4262,9 @@
     "muscleGroup": "Pernas",
     "musclesPrimary": [],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Elástico"
+    ],
     "description": "Prenda um elástico em um ponto baixo atrás de você, por exemplo na base de um rack, e passe-o pela frente do tornozelo, logo acima do pé.\n\nFique em posição semiajoelhada com o pé do elástico à frente, de modo que o elástico puxe o tornozelo para trás.\n\nMantendo o calcanhar no chão, leve o joelho à frente sobre a ponta do pé e volte com controle. Repita algumas vezes e troque de lado.",
     "imagePath": "exercise-images/fcdc26c0-a20d-4b93-a629-2a3a15eae426.png",
     "licenseAuthor": "jptjptjptjpt",
@@ -4269,7 +4307,9 @@
       "Sóleo"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Apoie a parte da frente dos pés na plataforma do leg press, com as pernas estendidas. Use as panturrilhas para empurrar o peso, flexionando os pés e os dedos até a posição de ponta, e depois volte à posição relaxada.\n\nEste exercício constrói massa e força nos músculos gastrocnêmio e sóleo tanto quanto — se não melhor que — qualquer outro exercício de panturrilha.",
     "imagePath": "exercise-images/0d79f259-3b28-4258-8a08-cffec062a710.jpg",
     "licenseAuthor": "jptjptjptjpt",
@@ -4283,7 +4323,9 @@
       "Panturrilhas"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Mova o leg press usando as panturrilhas, posicionando os pés na parte inferior da plataforma.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -4731,7 +4773,9 @@
       "Bíceps",
       "Trapézio"
     ],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Os pull-ups da máquina são uma variação assistida do exercício pull-up tradicional. Eles são projetados para ajudar as pessoas que estão desenvolvendo a força necessária para realizar o movimento completo. A máquina permite ajustar o peso para fornecer suporte adequado durante o exercício.\nPara realizar flexões na máquina, siga os seguintes passos: posicione-se corretamente, ajuste o peso para o suporte desejado, segure a barra com as mãos alinhadas com os ombros, mantenha os braços retos e a postura ereta. Inicie o movimento flexionando os cotovelos e puxando o corpo em direção à barra. Suba até que seu queixo esteja acima da barra e seus ombros estejam firmes.\nA descida deve ser feita de forma controlada, estendendo totalmente os braços. Realize o número desejado de repetições, adaptando-o à sua habilidade. Lembre-se de respirar corretamente durante o exercício, inspirando na fase descendente e expirando ao puxar o corpo para cima.\nA prática regular de flexões na máquina fortalecerá os músculos das costas, ombros e braços, ajudando a melhorar a postura e a força geral. À medida que você ganha mais força, pode reduzir gradualmente a assistência fornecida pela máquina e progredir para a tradicional flexão sem ajuda.\nEssa variação do exercício é uma opção acessível para iniciantes ou pessoas que lutam para realizar flexões completas. Lembre-se de adaptar o peso e o número de repetições de acordo com seu nível de força e capacidade. A prática regular e a progressão gradual ajudarão a melhorar sua forma e progredir em direção a flexões completas.",
     "licenseAuthor": "wger.de",
     "license": "CC-BY-SA 3"
@@ -5337,7 +5381,9 @@
       "Dorsais"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Ajuste a altura do assento para que as manoplas fiquem na parte inferior do peitoral ou logo abaixo.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 3"
@@ -5623,7 +5669,9 @@
     "musclesSecondary": [
       "Braquial"
     ],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "A rosca bíceps na máquina isola o bíceps e oferece uma amplitude de movimento controlada. Sente-se na máquina com as costas apoiadas no encosto e ajuste o assento para que seus braços fiquem alinhados com as alças ou apoios. Segure as alças com firmeza, mantendo os cotovelos fixos no lugar, e flexione os braços para cima contraindo o bíceps. Desça as alças devagar até a posição inicial, mantendo o controle durante todo o movimento.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -6045,7 +6093,9 @@
       "Ombros"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Anilha"
+    ],
     "description": "Sentado, segure uma anilha com as duas mãos como se fosse um volante, elevada um pouco abaixo da altura dos olhos.",
     "imagePath": "exercise-images/3d85bdce-e1a9-48a2-b14d-8032820ebf25.png",
     "licenseAuthor": "jptjptjptjpt",
@@ -6396,7 +6446,9 @@
       "Ombros",
       "Tríceps"
     ],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "• Sente-se ereto na máquina Hammer de supino declinado, com as escápulas aproximadas e os calcanhares firmes no chão, abaixo dos joelhos.\n\n• O apoio das costas deve manter contato com a cabeça, os ombros e o glúteo o tempo todo.\n\n• Segure as alças com pegada pronada, um pouco mais aberta que a largura dos ombros e logo abaixo do peito.\n\n• Mantendo o core firme, respirando para o abdômen e contraindo a musculatura abdominal, empurre com as palmas para estender os cotovelos, mantendo-os a 45 graus do tronco.\n\n• Depois de estender totalmente os braços, volte à posição inicial.",
     "imagePath": "exercise-images/920692b2-0842-428a-b925-ba0daf6b41db.jpg",
     "licenseAuthor": "jptjptjptjpt",
@@ -6427,7 +6479,9 @@
       "Peitoral"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Ajuste a altura do assento para que as manoplas fiquem na parte inferior do peitoral.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 3"
@@ -6477,7 +6531,9 @@
       "Tríceps"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Ajuste o banco em uma inclinação de 45 a 60 graus. Encoste a barra na parte superior do peito.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -6551,7 +6607,9 @@
       "Ombros",
       "Tríceps"
     ],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Supino inclinado na máquina LeverEdge. Ajuste o banco, destrave e empurre até estender os braços.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -6581,7 +6639,9 @@
       "Peitoral"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Execução\n\nPosição inicial:\n\n• Tire a barra do suporte e segure-a acima da parte superior do peito com os braços totalmente estendidos.\n\n• Mantenha as escápulas retraídas e pressionadas contra o banco.\n\nFase de descida (excêntrica):\n\n• Leve a barra lentamente até pouco abaixo da clavícula ou da parte superior do peito.\n\n• Mantenha o controle, sem quicar a barra.\n\nFase de subida (concêntrica):\n\n• Empurre a barra para cima em linha reta até os braços ficarem totalmente estendidos.\n\n• Concentre-se em contrair a parte superior do peito no alto.\n\nTravar e repetir:\n\n• Complete as repetições e encaixe a barra com segurança nos ganchos.",
     "imagePath": "exercise-images/ef2df6a2-41df-4a25-b2e0-4808dc2c3305.png",
     "licenseAuthor": "jptjptjptjpt",
@@ -6615,7 +6675,9 @@
       "Ombros",
       "Tríceps"
     ],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Máquina de supino carregada com anilhas da linha LeverEdge, da Legend Fitness.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -6698,7 +6760,9 @@
     "muscleGroup": "Braços",
     "musclesPrimary": [],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Barra"
+    ],
     "description": "Suspensão executada em uma barra, com ou sem peso adicional (ajuste a espessura da barra ou o peso para ajustar a dificuldade).",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 4"
@@ -6996,7 +7060,9 @@
       "Tríceps"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "Sente-se\ne segure a barra firmemente com as mãos. Agora pressione o peso para\ncima (não estenda totalmente os braços) e abaixe-o lentamente novamente.\nTal como acontece com outros exercícios de tríceps, é importante não\nmover a parte superior dos braços.",
     "licenseAuthor": "stwalkerster",
     "license": "CC-BY-SA 3"
@@ -7098,7 +7164,9 @@
       "Peitoral"
     ],
     "musclesSecondary": [],
-    "equipment": [],
+    "equipment": [
+      "Máquina"
+    ],
     "description": "O movimento é o mesmo do voador tradicional, apenas com a pegada fechada:\n\nSente-se na máquina voador com os pés bem apoiados no chão e os braços paralelos ao chão. Aproxime os braços até que as alças fiquem praticamente juntas (mas sem se tocar). Volte devagar. Os pesos devem permanecer no ar o tempo todo.",
     "licenseAuthor": "jptjptjptjpt",
     "license": "CC-BY-SA 3"

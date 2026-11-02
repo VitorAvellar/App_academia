@@ -22,12 +22,14 @@ export interface Exercise {
   license?: string
 }
 
-/** Item de uma ficha: qual exercício e a meta de séries/repetições. */
+/** Item de uma ficha: qual exercício e a meta de séries/repetições/carga. */
 export interface TemplateItem {
   exerciseId: string
   targetSets: number
   /** Texto livre, ex.: "8-12" ou "10". */
   targetReps: string
+  /** Carga planejada em kg (opcional, ex.: 60 ou 22.5). */
+  targetWeightKg?: number
 }
 
 /** Ficha de treino (ex.: "Treino A – Peito/Tríceps"). */
@@ -47,6 +49,8 @@ export interface WorkoutSession {
   name: string
   /** Exercícios adicionados durante o treino (fora da ficha, ou todos, no treino livre). */
   extraExerciseIds?: string[]
+  /** Exercícios da ficha pulados ou substituídos apenas nesta sessão. */
+  skippedExerciseIds?: string[]
   startedAt: number
   finishedAt?: number
 }

@@ -1,5 +1,7 @@
+import { useState } from 'react'
 import { useLiveQuery } from 'dexie-react-hooks'
 import { useNavigate } from 'react-router-dom'
+import { ConfirmDialog } from '../components/ConfirmDialog'
 import { db } from '../db/db'
 import { sessionRepo } from '../db/repositories/sessionRepo'
 import { templateRepo } from '../db/repositories/templateRepo'
@@ -7,22 +9,30 @@ import { templateRepo } from '../db/repositories/templateRepo'
 export function Templates() {
   const navigate = useNavigate()
   const templates = useLiveQuery(() => templateRepo.list(), [])
+  const [pendingStartId, setPendingStartId] = useState<string | null>(null)
 
   async function createNew() {
     const t = await templateRepo.create({ name: 'Nova ficha' })
     navigate(`/fichas/${t.id}`)
   }
 
-  async function startFrom(id: string) {
-    const active = await sessionRepo.getActive()
-    if (active && !confirm('Já existe um treino em andamento. Iniciar outro mesmo assim?')) return
+  async function launchTemplate(id: string) {
     const template = await db.templates.get(id)
     if (template) await sessionRepo.start(template)
     navigate('/')
   }
 
+  async function startFrom(id: string) {
+    const active = await sessionRepo.getActive()
+    if (active) {
+      setPendingStartId(id)
+      return
+    }
+    await launchTemplate(id)
+  }
+
   return (
-    <div className="p-4">
+    <div className="p-4 pb-8">
       <div className="mb-4 flex items-center justify-between">
         <h1 className="text-2xl font-bold">Minhas fichas</h1>
         <button onClick={createNew} className="rounded-lg bg-green-600 px-3 py-2 text-sm font-medium">
@@ -54,7 +64,20 @@ export function Templates() {
           </li>
         ))}
       </ul>
+
+      {pendingStartId && (
+        <ConfirmDialog
+          title="Treino em andamento"
+          message="Já existe um treino aberto. Deseja iniciar outro treino mesmo assim?"
+          confirmLabel="Iniciar novo"
+          onCancel={() => setPendingStartId(null)}
+          onConfirm={async () => {
+            const id = pendingStartId
+            setPendingStartId(null)
+            await launchTemplate(id)
+          }}
+        />
+      )}
     </div>
   )
 }
-

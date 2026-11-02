@@ -46,6 +46,29 @@ const EQUIPMENT_PT = {
   'Swiss Ball': 'Bola suíça',
 }
 
+/**
+ * Alguns exercícios na wger (ex.: "Leg press", "Cadeira extensora", "Supino declinado na Hammer")
+ * vêm com `equipment: []`. Quando a lista vem vazia, inferimos pelo nome em português.
+ */
+function inferEquipmentFromName(name) {
+  const inferred = []
+  if (/m[aáã]quina|leg press|hack|extensora|flexora|hammer|smith|peck|voador|adutora|abdutora|graviton/i.test(name)) {
+    inferred.push('Máquina')
+  }
+  if (/halter/i.test(name)) inferred.push('Halteres')
+  if (/barra fixa/i.test(name)) {
+    inferred.push('Barra fixa')
+  } else if (/\bbarra\b/i.test(name)) {
+    inferred.push('Barra')
+  }
+  if (/polia|cabo|cross[- ]?over/i.test(name)) inferred.push('Polia')
+  if (/kettlebell/i.test(name)) inferred.push('Kettlebell')
+  if (/anilha/i.test(name)) inferred.push('Anilha')
+  if (/el[aá]stico|banda/i.test(name)) inferred.push('Elástico')
+  if (/banco/i.test(name)) inferred.push('Banco')
+  return inferred
+}
+
 // Músculos (nome em inglês da wger, campo `name_en`) -> português.
 const MUSCLE_PT = {
   Abs: 'Abdômen',
@@ -155,7 +178,10 @@ async function main() {
       muscleGroup: CATEGORY_PT[ex.category?.name] ?? ex.category?.name ?? 'Outros',
       musclesPrimary: ex.muscles.map(muscleName),
       musclesSecondary: ex.muscles_secondary.map(muscleName),
-      equipment: ex.equipment.map((e) => EQUIPMENT_PT[e.name] ?? e.name),
+      equipment:
+        ex.equipment.length > 0
+          ? ex.equipment.map((e) => EQUIPMENT_PT[e.name] ?? e.name)
+          : inferEquipmentFromName(pt.name),
       description: htmlToText(pt.description ?? ''),
       imagePath,
       // CC-BY-SA exige crédito: guardamos autor e licença para a tela "Créditos".

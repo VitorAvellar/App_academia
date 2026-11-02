@@ -40,6 +40,13 @@ describe('catálogo importado da wger', () => {
     )
     expect(missing).toEqual([])
   })
+
+  it('preenche equipamento inferido pelo nome em máquinas como Leg press e Cadeira extensora', () => {
+    const legPress = catalog.find((e) => normalize(e.name) === 'leg press')
+    const extensora = catalog.find((e) => normalize(e.name) === 'cadeira extensora')
+    expect(legPress?.equipment).toContain('Máquina')
+    expect(extensora?.equipment).toContain('Máquina')
+  })
 })
 
 describe('seedExercises', () => {

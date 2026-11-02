@@ -14,6 +14,10 @@ export async function bootstrap(): Promise<void> {
   await seedExercises(db, catalog as CatalogEntry[])
   await seedTemplates(db)
   // Pede ao navegador para NÃO apagar os dados do app por falta de espaço.
-  // (Sem isso o navegador pode limpar o IndexedDB em último caso.)
-  await navigator.storage?.persist?.()
+  // Em HTTP na rede local (fora de HTTPS/localhost), `navigator.storage` pode não existir.
+  try {
+    await navigator.storage?.persist?.()
+  } catch {
+    // Ignora caso o navegador recuse em contexto não-seguro.
+  }
 }

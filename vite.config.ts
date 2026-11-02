@@ -3,8 +3,13 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 import { defineConfig } from 'vitest/config'
 
+// No GitHub Pages o app fica em um subcaminho (ex.: /App_academia/).
+// Localmente (ou na Vercel/Capacitor) o caminho base é '/'.
+const base = process.env.BASE_PATH || '/'
+
 // https://vite.dev/config/
 export default defineConfig({
+  base,
   plugins: [
     react(),
     tailwindcss(),
@@ -23,7 +28,8 @@ export default defineConfig({
         background_color: '#0f172a',
         display: 'standalone', // abre sem a barra do navegador, parecendo app nativo
         orientation: 'portrait',
-        start_url: '/',
+        start_url: base,
+        scope: base,
         icons: [
           { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
           { src: 'icon-512.png', sizes: '512x512', type: 'image/png' },
